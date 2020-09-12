@@ -1,1 +1,308 @@
 {% extends "orders/base.html" %}
+
+{% block title %}
+    Pinocchio's Pizza & Subs: Hours
+{% endblock %}
+{% block body %}
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+        <div class="col-md-5 p-lg-5 mx-auto my-5">
+            <h1 class="display-4 font-weight-normal titleFont">Our Menu</h1>
+        </div>
+    </div>
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+        <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+            <div class="my-3 py-3">
+                <h2 class="display-5">Regular Pizza</h2>
+                <table class="mx-auto">
+                    <tr>
+                        <th></th>
+                        <th>Small</th>
+                        <th>Large</th>
+                    </tr>
+                    <tr>
+                        <td>Cheese</td>
+                        <td>13.25</td>
+                        <td>18.75</td>
+                    </tr>
+                    <tr>
+                        <td>1 item</td>
+                        <td>14.25</td>
+                        <td>20.75</td>
+                    </tr>
+                    <tr>
+                        <td>2 itmes</td>
+                        <td>15.75</td>
+                        <td>22.75</td>
+                    </tr>
+                    <tr>
+                        <td>3 items</td>
+                        <td>16.75</td>
+                        <td>24.75</td>
+                    </tr>
+                    <tr>
+                        <td>Special</td>
+                        <td>18.30</td>
+                        <td>26.75</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+            <div class="my-3 p-3">
+                <h2 class="display-5">Sicilian Pizza</h2>
+                <table class="mx-auto">
+                    <tr>
+                        <th></th>
+                        <th>Small</th>
+                        <th>Large</th>
+                    </tr>
+                    <tr>
+                        <td>Cheese</td>
+                        <td>25.25</td>
+                        <td>39.70</td>
+                    </tr>
+                    <tr>
+                        <td>1 item</td>
+                        <td>27.25</td>
+                        <td>41.70</td>
+                    </tr>
+                    <tr>
+                        <td>2 itmes</td>
+                        <td>29.75</td>
+                        <td>43.70</td>
+                    </tr>
+                    <tr>
+                        <td>3 items</td>
+                        <td>31.25</td>
+                        <td>45.70</td>
+                    </tr>
+                    <tr>
+                        <td>Special</td>
+                        <td>32.25</td>
+                        <td>46.70</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+        <div class="col-md-5 p-lg-5 mx-auto my-5">
+            <h1 class="font-weight-normal titleFont">Toppings</h1>
+            <ul class="remBullet">
+                <li>Pepperoni</li>
+                <li>Sausage</li>
+                <li>Mushrooms</li>
+                <li>Onions</li>
+                <li>Ham</li>
+                <li>Canadian Bacon</li>
+                <li>Pineapple</li>
+                <li>Eggplant</li>
+                <li>Tomato & Basil</li>
+                <li>Hamburger</li>
+                <li>Spinach</li>
+                <li>Artichoke</li>
+                <li>Buffalo Chicken</li>
+                <li>Barbecue Chicken</li>
+                <li>Anchovies</li>
+                <li>Black Olives</li>
+                <li>Fresh Garlic</li>
+                <li>Zucchini</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark">
+        <div class=" col-md-5 p-lg-5 mx-auto text-white my-5">
+            <h1 class="display-4 font-weight-normal titleFont">Subs</h1>
+            <table class="mx-auto">
+                <tr>
+                    <th></th>
+                    <th>Small</th>
+                    <th>Large</th>
+                </tr>
+                <tr>
+                    <td>Cheese</td>
+                    <td>6.95</td>
+                    <td>8.50</td>
+                </tr>
+                <tr>
+                    <td>Italian</td>
+                    <td>6.95</td>
+                    <td>8.50</td>
+                </tr>
+                <tr>
+                    <td>Ham + Cheese</td>
+                    <td>6.95</td>
+                    <td>8.50</td>
+                </tr>
+                <tr>
+                    <td>Meatball</td>
+                    <td>6.95</td>
+                    <td>8.50</td>
+                </tr>
+                <tr>
+                    <td>Tuna</td>
+                    <td>6.95</td>
+                    <td>8.50</td>
+                </tr>
+                <tr>
+                    <td>Turkey</td>
+                    <td>7.50</td>
+                    <td>8.50</td>
+                </tr>
+                <tr>
+                    <td>Chicken Parmigiana</td>
+                    <td>7.95</td>
+                    <td>8.95</td>
+                </tr>
+                <tr>
+                    <td>Eggplant Parmigiana</td>
+                    <td>6.95</td>
+                    <td>8.50</td>
+                </tr>
+                <tr>
+                    <td>Steak</td>
+                    <td>6.85</td>
+                    <td>8.50</td>
+                </tr>
+                <tr>
+                    <td>Steak & Cheese</td>
+                    <td>7.60</td>
+                    <td>9.25</td>
+                </tr>
+                <tr>
+                    <td>+ Mushrooms</td>
+                    <td>+0.50</td>
+                    <td>+0.50</td>
+                </tr>
+                <tr>
+                    <td>+ Green Peppers</td>
+                    <td>+0.50</td>
+                    <td>+0.50</td>
+                </tr>
+                <tr>
+                    <td>+ Onions</td>
+                    <td>+0.50</td>
+                    <td>+0.50</td>
+                </tr>
+                <tr>
+                    <td>Sausage, Peppers & Onions</td>
+                    <td></td>
+                    <td>8.95</td>
+                </tr>
+                <tr>
+                    <td>Hamburger</td>
+                    <td>5.10</td>
+                    <td>7.45</td>
+                </tr>
+                <tr>
+                    <td>Cheeseburger</td>
+                    <td>5.60</td>
+                    <td>7.95</td>
+                </tr>
+                <tr>
+                    <td>Fried Chicken</td>
+                    <td>6.95</td>
+                    <td>8.95</td>
+                </tr>
+                <tr>
+                    <td>Veggie</td>
+                    <td>6.95</td>
+                    <td>8.95</td>
+                </tr>
+                <tr>
+                    <td>Extra Cheese on any sub</td>
+                    <td>+0.50</td>
+                    <td>+0.50</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <div class="my-3 py-3">
+                <h2 class="display-5">Pasta</h2>
+                <table class="mx-auto">
+                    <tr>
+                        <td>Baked Ziti w/Mozzarella</td>
+                        <td>7.00</td>
+                    </tr>
+                    <tr>
+                        <td>Baked Ziti w/Meatballs</td>
+                        <td>9.25</td>
+                    </tr>
+                    <tr>
+                        <td>Baked Ziti w/Chicken</td>
+                        <td>10.25</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <div class="my-3 p-3">
+                <h2 class="display-5">Salads</h2>
+                <table class="mx-auto">
+                    <tr>
+                        <td>Garden Salad</td>
+                        <td>6.75</td>
+                    </tr>
+                    <tr>
+                        <td>Greek Salad</td>
+                        <td>8.75</td>
+                    </tr>
+                    <tr>
+                        <td>Antipasto</td>
+                        <td>8.75</td>
+                    </tr>
+                    <tr>
+                        <td>Salad w/Tuna</td>
+                        <td>8.75</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark">
+        <div class="col-md-5 p-lg-5 text-white mx-auto my-5">
+            <h1 class="font-weight-normal titleFont">Dinner Platters</h1>
+            <table class="mx-auto">
+                <tr>
+                    <th></th>
+                    <th>Small</th>
+                    <th>Large</th>
+                </tr>
+                <tr>
+                    <td>Garden Salad</td>
+                    <td>40.00</td>
+                    <td>65.00</td>
+                </tr>
+                <tr>
+                    <td>Greek Salad</td>
+                    <td>50.00</td>
+                    <td>75.00</td>
+                </tr>
+                <tr>
+                    <td>Antipasto</td>
+                    <td>50.00</td>
+                    <td>75.00</td>                </tr>
+                <tr>
+                    <td>Baked Ziti</td>
+                    <td>40.00</td>
+                    <td>65.00</td>
+                </tr>
+                <tr>
+                    <td>Meatball Parm</td>
+                    <td>50.00</td>
+                    <td>75.00</td>
+                </tr>
+                <tr>
+                    <td>Chicken Parm</td>
+                    <td>55.00</td>
+                    <td>85.00</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+{% endblock %}

@@ -2,6 +2,10 @@
   max-width: 960px;
 }
 
+.remBullet {
+  list-style-type: none;
+}
+
 /*
  * Custom translucent site header
  */
